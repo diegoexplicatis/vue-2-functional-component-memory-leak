@@ -1,7 +1,7 @@
 <script>
 export default {
   name: "FunctionalComponent",
-  functional: false,
+  functional: true,
   render(h) {
     return h("div", { attrs: { id: "functionalDiv" } }, "");
   },
